@@ -1,0 +1,19 @@
+.noDataCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85%;
+    flex-direction: column;
+}
+
+.chartLineIcon{
+    height: 40px;
+    width: 100%;
+    opacity: 0.2;
+}
+
+.headline{
+    color: black;
+    font-weight: 600;
+    opacity: 0.9;
+}

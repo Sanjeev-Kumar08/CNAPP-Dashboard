@@ -1,0 +1,108 @@
+.mainContainer{
+    margin: 1% 1%;
+    margin-top: -1vh;
+    margin-bottom: 3vh;
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.CNAPP_Dashboard{
+    font-size: 21px;    
+    font-weight: 700;
+}
+
+.heading_Container_right{
+    display: flex;
+    gap: 2vh;
+}
+
+.addWidgetBtn , .refreshBtn, .dotsBtn{
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.325);
+    padding: 5px;
+    display: inline;
+    border-radius: 6px;
+    color: rgba(30, 26, 26, 0.818);
+    font-weight: 500;
+}
+
+.addWidgetBtn{
+    padding: 5px 8px 5px 8px;
+}
+
+.plusIcon{
+    margin-left: 1vh;
+}
+
+.refreshBtn{
+    padding: 5px 8px 5px 8px;
+}
+.dotsBtn{
+    padding: 5px 13px 5px 13px;
+}
+
+.refreshBtn .refreshIcon {
+    transform: rotate(90deg);
+}
+
+.dropdownContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.325);
+    border-radius: 4px;
+    color: rgba(30, 26, 26, 0.818);
+    font-weight: 500;
+    padding: 5px 10px 5px 10px;
+    gap: 4px;
+    color: rgb(29, 29, 150);
+    border: 1px solid rgb(29, 29, 150);
+}
+
+.angleDownIcon{
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.hr_Line{
+    transform: rotate(180deg);
+    background-color: rgb(29, 29, 150);
+    height: 115%;
+    width: 1px;
+}
+
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid rgb(29, 29, 150);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    margin-top: 5px;
+    padding: 5px;
+    width: 150px;
+    display: none; 
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu li {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+    background-color: #f1f1f1;
+}

@@ -1,0 +1,11 @@
+.section_Heading_matrices{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: -5px;
+}
+
+.cardContainer{
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    gap: 2vh 2vh;
+}

@@ -1,0 +1,6 @@
+.subContainer{
+    margin: 0 6vh 0 6vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+}

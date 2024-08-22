@@ -1,0 +1,11 @@
+.section_Heading_cwpp{
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: -5px;
+}
+
+.cardContainer{
+    display: grid;
+    grid-template-columns: 34% 34% 34%;
+    gap: 2vh 1%;
+}

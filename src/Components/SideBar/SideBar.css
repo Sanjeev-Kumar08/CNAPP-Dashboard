@@ -1,0 +1,121 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 43%;
+    height: 100%;
+    background-color: #fff;
+    color: #000;
+    transition: right 0.5s ease-out;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.5);
+    z-index: 1000;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .sidebar.visible {
+    right: 0;
+  }
+  
+  .sidebar-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 20px;
+    background-color: #0d1773;
+    color: #fff;
+  }
+  
+  .close-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: -1vh;
+  }
+  
+  .sidebar-content {
+    padding: 10px 7px;
+    flex: 1;
+  }
+  
+  .sidebar-content p {
+    margin-left: 1vh;
+  }
+  
+  .tabs {
+    display: flex;
+    width: 60%;
+    margin-bottom: 3vh;
+    border-bottom: 2px solid #5b5c5f55;
+  }
+  
+  .tab {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .tab.active {
+    color: #0c134e;
+    border-bottom: 3px solid #0c134e;
+    margin-bottom: -2px;
+    font-weight: 600;
+  }
+
+  .widget-list{
+    margin: 0 1vh 0 2vh;
+  }
+  
+  .widget-list label {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px;
+    border: 1px solid #5b5c5f55;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .widget-list input[type="checkbox"] {
+    width: 15px;  
+    height: 15px; 
+    background-color: #fff;
+    border: 2px solid #333;
+    border-radius: 3px;
+    cursor: pointer;
+    position: relative;
+    margin-right: 10px;
+  }
+  
+  .sidebar-footer {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px;
+  }
+  .cancel-btn{
+    border: 1px solid #0c134e;
+    color: #0c134e;
+    padding: 8px 28px;
+    font-weight: 500;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .confirm-btn {
+    background-color: #0c134e;
+    color: rgb(214, 206, 206);
+    border: none;
+    padding: 8px 28px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  
+  .confirm-btn:hover {
+    background-color: #555;
+  }
+  

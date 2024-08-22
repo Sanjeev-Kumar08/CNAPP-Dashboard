@@ -1,0 +1,94 @@
+.card{
+  height: 260px;
+  width: 100%;
+  background: white;
+  border-radius: 10px;
+  border: none;
+  position: relative;
+  margin: 2% 0% 3% 0%;
+  box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.33);
+  padding-top: -10%;
+}
+.card h3{
+  margin-left: 4%;
+  font-weight: 700;
+  font-size: 17px;
+  margin-top: 2%;
+}
+
+.deleteCardBtn{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background: none;
+  font-size: 20px;
+  cursor: pointer;
+  border-radius: 50px;
+  padding: 0px 7px;
+  font-weight: 800;
+  display: none;
+}
+
+.card:hover .deleteCardBtn{
+  display: block;
+}
+
+
+.header{
+  font-size: 17px;
+  font-weight: 700;
+}
+
+
+.chart{
+  margin-top: -8%;
+}
+
+.legendContainer{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  text-align: right;
+  padding: 10px;
+}
+
+.legend{
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.legendIcon{
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  margin-right: 10px;
+  border-radius: 3px;
+}
+
+.totalCount{
+  position: absolute;
+  top: 54%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+  font-size: 17px;
+  font-weight: bold;
+  color: #000;
+}
+
+.total{
+  position: absolute;
+  top: 60%;
+  left: 23%;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  color: #000;
+}
+
+.paraText{
+  display: flex;
+  margin-left: 4%;
+  font-size: 14px;
+  color: #000;
+}
+
