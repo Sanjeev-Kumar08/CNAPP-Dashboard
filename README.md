@@ -14,10 +14,11 @@ This project is a dynamic dashboard built with React.js, CSS, Tailwind CSS, and 
 
 ## Development Stack
 
-- **React.js:** For building the UI components.
-- **CSS, Tailwind CSS:** For styling and layout.
-- **ReduxToolkit:** For state management.
-- **FontAwesome:** For icons.
+- **React.js** 
+- **CSS, Tailwind CSS** 
+- **ReduxToolkit** 
+- **Recharts** 
+- **FontAwesome**
 
 ## Getting Started
 
